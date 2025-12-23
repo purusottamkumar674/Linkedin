@@ -20,15 +20,6 @@ const __dirname = path.resolve();
    CORS CONFIG
 ========================= */
 
-// ✅ Development: allow Vite frontend
-if (process.env.NODE_ENV !== "production") {
-  app.use(
-    cors({
-      origin: "http://localhost:5173",
-      credentials: true,
-    })
-  );
-}
 
 // ✅ Production: allow ALL origins
 app.use(
