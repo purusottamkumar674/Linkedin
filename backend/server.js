@@ -22,7 +22,7 @@ const __dirname = path.resolve();
 if (process.env.NODE_ENV !== "production") {
 	app.use(
 		cors({
-			origin: "http://localhost:5000",
+			origin: "https://linkedin-2y5l.onrender.com",
 			credentials: true,
 		})
 	);
