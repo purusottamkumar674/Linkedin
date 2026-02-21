@@ -1,6 +1,5 @@
 import axios from "axios";
 
 export const axiosInstance = axios.create({
-	baseURL: import.meta.env.MODE === "development" ? "http://localhost:5000/api/v1" : "https://linkedin-skk2.vercel.app/api/v1",
-	withCredentials: true,
+	baseURL: import.meta.env.MODE === "development" ? "https://linkedin-2y5l.onrender.com/api/v1" : true,
 });
